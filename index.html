@@ -12,12 +12,48 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google front style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- font-awesome CDN -->
+    <script src="https://kit.fontawesome.com/a4b0d9397d.js" crossorigin="anonymous"></script>
+    <!-- universal style -->
+     <style>
+        .font-poppins {
+            font-family: "Poppins", serif;
+        }
+     </style>
   </head>
-  <body>
-    <header>
-        <h1>PHone Hunter</h1>
-    </header>
-    <main></main>
+  <body class="font-poppins">
+    <header class="bg-[#0d6efd0d] px-[150px] pt-[50px] h-[806px]">
+        <section>
+            <div class=" flex justify-between">
+                <h3 class="text-[25px] font-bold text-[#403F3F]">Hot Gadgets</h3>
+                <button class="text-white text-xl font-bold bg-[#0D6EFD] py-[17px] px-[41px] rounded-lg">Sign Up</button>
+            </div>
+            <div class="flex justify-center items-center flex-col gap-8">
+                <h1 class="text-[65px] font-bold text-[#100F0F] text-center mt-[50px]">Apple Iphone 13 Pro Max</h1>
+                <p class="text-[18px] text-[#706F6F] text-center w-[738px] ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humou.</p>
+                <button class="text-white text-xl font-bold bg-[#0D6EFD] py-[17px] px-[41px] rounded-lg">Buy Now</button>
+            </div>
+        </section>
+        <section>
+            <div class="flex justify-center items-end mt-[90px]">
+                <img src="images/pngwing 2.png" alt="">
+                <img src="images/pngwing 1.png" alt="">
+                <img src="images/pngwing 2.png" alt="">
+
+            </div>
+        </section>
+    <main>
+        <section class=" flex flex-col justify-center items-center mt-[120px] ">
+            <h3 class="text-[#100F0F] text-4xl font-semibold mb-8">Search your phone</h3>
+            <div class=" flex mb-[50px]">
+                <input class=" py-[17px] pl-[30px] bg-[#100f0f0d] h-[64px] w-[600px] focus:outline-none rounded-l-lg " type="text" name="" id="" placeholder="Search your phone">
+                <button class="text-white text-xl font-bold bg-[#0D6EFD] py-[16px] px-[38px] rounded-lg -ml-20">Search</button>
+            </div>
+        </section>
+    </main>
     <footer></footer>
     <script src="JS/phone.js"></script>
   </body>
